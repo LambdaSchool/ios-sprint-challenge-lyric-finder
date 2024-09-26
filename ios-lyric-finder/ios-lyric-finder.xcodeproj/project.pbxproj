@@ -1,0 +1,391 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		13954ADF2167B472003B8072 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13954ADE2167B472003B8072 /* AppDelegate.m */; };
+		13954AE52167B472003B8072 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 13954AE32167B472003B8072 /* Main.storyboard */; };
+		13954AE72167B474003B8072 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13954AE62167B474003B8072 /* Assets.xcassets */; };
+		13954AEA2167B474003B8072 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 13954AE82167B474003B8072 /* LaunchScreen.storyboard */; };
+		13954AED2167B474003B8072 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13954AEC2167B474003B8072 /* main.m */; };
+		13954AF72167B8A5003B8072 /* CGALyricDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 13954AF62167B8A5003B8072 /* CGALyricDetailViewController.m */; };
+		13954AFA2167B8B9003B8072 /* CGALyricsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 13954AF92167B8B9003B8072 /* CGALyricsTableViewController.m */; };
+		13954AFD2167BAA6003B8072 /* CGASong.m in Sources */ = {isa = PBXBuildFile; fileRef = 13954AFC2167BAA6003B8072 /* CGASong.m */; };
+		13954B012167BC19003B8072 /* CGASongController.m in Sources */ = {isa = PBXBuildFile; fileRef = 13954B002167BC19003B8072 /* CGASongController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		13954ADA2167B472003B8072 /* ios-lyric-finder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ios-lyric-finder.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		13954ADD2167B472003B8072 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		13954ADE2167B472003B8072 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		13954AE42167B472003B8072 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		13954AE62167B474003B8072 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		13954AE92167B474003B8072 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		13954AEB2167B474003B8072 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		13954AEC2167B474003B8072 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		13954AF52167B8A5003B8072 /* CGALyricDetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CGALyricDetailViewController.h; sourceTree = "<group>"; };
+		13954AF62167B8A5003B8072 /* CGALyricDetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CGALyricDetailViewController.m; sourceTree = "<group>"; };
+		13954AF82167B8B9003B8072 /* CGALyricsTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CGALyricsTableViewController.h; sourceTree = "<group>"; };
+		13954AF92167B8B9003B8072 /* CGALyricsTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CGALyricsTableViewController.m; sourceTree = "<group>"; };
+		13954AFB2167BAA6003B8072 /* CGASong.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CGASong.h; sourceTree = "<group>"; };
+		13954AFC2167BAA6003B8072 /* CGASong.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CGASong.m; sourceTree = "<group>"; };
+		13954AFF2167BC19003B8072 /* CGASongController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CGASongController.h; sourceTree = "<group>"; };
+		13954B002167BC19003B8072 /* CGASongController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CGASongController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		13954AD72167B472003B8072 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		13954AD12167B472003B8072 = {
+			isa = PBXGroup;
+			children = (
+				13954ADC2167B472003B8072 /* ios-lyric-finder */,
+				13954ADB2167B472003B8072 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		13954ADB2167B472003B8072 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				13954ADA2167B472003B8072 /* ios-lyric-finder.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		13954ADC2167B472003B8072 /* ios-lyric-finder */ = {
+			isa = PBXGroup;
+			children = (
+				13954AF42167B875003B8072 /* View Controllers */,
+				13954ADD2167B472003B8072 /* AppDelegate.h */,
+				13954ADE2167B472003B8072 /* AppDelegate.m */,
+				13954AF32167B859003B8072 /* Resources */,
+				13954AFE2167BAAC003B8072 /* Model */,
+				13954B022167BC1D003B8072 /* Model Controller */,
+			);
+			path = "ios-lyric-finder";
+			sourceTree = "<group>";
+		};
+		13954AF32167B859003B8072 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				13954AE32167B472003B8072 /* Main.storyboard */,
+				13954AE62167B474003B8072 /* Assets.xcassets */,
+				13954AE82167B474003B8072 /* LaunchScreen.storyboard */,
+				13954AEB2167B474003B8072 /* Info.plist */,
+				13954AEC2167B474003B8072 /* main.m */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		13954AF42167B875003B8072 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				13954AF52167B8A5003B8072 /* CGALyricDetailViewController.h */,
+				13954AF62167B8A5003B8072 /* CGALyricDetailViewController.m */,
+				13954AF82167B8B9003B8072 /* CGALyricsTableViewController.h */,
+				13954AF92167B8B9003B8072 /* CGALyricsTableViewController.m */,
+			);
+			path = "View Controllers";
+			sourceTree = "<group>";
+		};
+		13954AFE2167BAAC003B8072 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				13954AFB2167BAA6003B8072 /* CGASong.h */,
+				13954AFC2167BAA6003B8072 /* CGASong.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		13954B022167BC1D003B8072 /* Model Controller */ = {
+			isa = PBXGroup;
+			children = (
+				13954AFF2167BC19003B8072 /* CGASongController.h */,
+				13954B002167BC19003B8072 /* CGASongController.m */,
+			);
+			path = "Model Controller";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		13954AD92167B472003B8072 /* ios-lyric-finder */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 13954AF02167B474003B8072 /* Build configuration list for PBXNativeTarget "ios-lyric-finder" */;
+			buildPhases = (
+				13954AD62167B472003B8072 /* Sources */,
+				13954AD72167B472003B8072 /* Frameworks */,
+				13954AD82167B472003B8072 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ios-lyric-finder";
+			productName = "ios-lyric-finder";
+			productReference = 13954ADA2167B472003B8072 /* ios-lyric-finder.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		13954AD22167B472003B8072 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = CGA;
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = Conner;
+				TargetAttributes = {
+					13954AD92167B472003B8072 = {
+						CreatedOnToolsVersion = 10.0;
+					};
+				};
+			};
+			buildConfigurationList = 13954AD52167B472003B8072 /* Build configuration list for PBXProject "ios-lyric-finder" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 13954AD12167B472003B8072;
+			productRefGroup = 13954ADB2167B472003B8072 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				13954AD92167B472003B8072 /* ios-lyric-finder */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		13954AD82167B472003B8072 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13954AEA2167B474003B8072 /* LaunchScreen.storyboard in Resources */,
+				13954AE72167B474003B8072 /* Assets.xcassets in Resources */,
+				13954AE52167B472003B8072 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		13954AD62167B472003B8072 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13954AED2167B474003B8072 /* main.m in Sources */,
+				13954AFA2167B8B9003B8072 /* CGALyricsTableViewController.m in Sources */,
+				13954AF72167B8A5003B8072 /* CGALyricDetailViewController.m in Sources */,
+				13954AFD2167BAA6003B8072 /* CGASong.m in Sources */,
+				13954B012167BC19003B8072 /* CGASongController.m in Sources */,
+				13954ADF2167B472003B8072 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		13954AE32167B472003B8072 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				13954AE42167B472003B8072 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		13954AE82167B474003B8072 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				13954AE92167B474003B8072 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		13954AEE2167B474003B8072 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		13954AEF2167B474003B8072 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		13954AF12167B474003B8072 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "$(SRCROOT)/ios-lyric-finder/Resources/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Conner.Lambda.ios-lyric-finder";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		13954AF22167B474003B8072 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "$(SRCROOT)/ios-lyric-finder/Resources/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Conner.Lambda.ios-lyric-finder";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		13954AD52167B472003B8072 /* Build configuration list for PBXProject "ios-lyric-finder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13954AEE2167B474003B8072 /* Debug */,
+				13954AEF2167B474003B8072 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		13954AF02167B474003B8072 /* Build configuration list for PBXNativeTarget "ios-lyric-finder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13954AF12167B474003B8072 /* Debug */,
+				13954AF22167B474003B8072 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 13954AD22167B472003B8072 /* Project object */;
+}
